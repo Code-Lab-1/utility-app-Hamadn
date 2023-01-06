@@ -74,7 +74,7 @@ def money():
 
 money()
 Category = input("Would you like to categorize the list?\n")
-Filter = "Enter C for Chocolates\nEnter D for Cold Drinks\nEnter Ch for Chips\nEnter I for Ice Cream\n"
+Filter = "Enter C for Chocolates\nEnter D for Cold Drinks\nEnter Cp for Chips\nEnter I for Ice Cream\n"
 cart = []
 
 
