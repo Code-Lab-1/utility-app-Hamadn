@@ -167,7 +167,7 @@ def Buy():
         # Checking if the input by the user is available in the dictionary(items)
         if Itms in items:
             # Appends the list(cart) and stores the prices of items that the user want to buy
-            dispensed_items.append(items[Itms])
+            cart.append(items[Itms])
         # Else it prints the message "Invalid Item Number" and does not add the said item in the cart
         else:
             print("Invalid Item Number")
