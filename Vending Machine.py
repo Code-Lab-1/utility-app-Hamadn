@@ -90,7 +90,7 @@ Category = input("Would you like to categorize the list?\n")
 # Assign the instruction for categorizing to a variable(Filter)
 Filter = "Enter C for Chocolates\nEnter D for Cold Drinks\nEnter Cp for Chips\nEnter I for Ice Cream\n"
 
-# Making an empty cart
+# Making a list to store prices of items that the user buys
 cart = []
 
 # Define a function for categorizing the items according to the input given by the user
@@ -167,7 +167,7 @@ def Buy():
         # Checking if the input by the user is available in the dictionary(items)
         if Itms in items:
             # Appends the list(cart) and stores the prices of items that the user want to buy
-            cart.append(items[Itms])
+            dispensed_items.append(items[Itms])
         # Else it prints the message "Invalid Item Number" and does not add the said item in the cart
         else:
             print("Invalid Item Number")
