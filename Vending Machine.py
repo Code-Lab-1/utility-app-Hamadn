@@ -1,9 +1,7 @@
 # Print the title of the program
 print("--------------------Vending Machine--------------------")
 # Store the heading of the item table in a variable(layout)
-layout = "Item no\t\t\tItem\t\t\tPrice(£)"
-# Print the heading of the item table
-print(layout)
+print("Item no\t\t\tItem\t\t\tPrice(£)")
 
 # Assign the item information of 16 items a variable from Itm1-Itm16
 Itm1 = ["A1", "Galaxy", 2.00]
