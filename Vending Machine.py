@@ -87,8 +87,7 @@ money()
 # Assign the prompt to ask if the user wants to categorize the items to a variable(Category) 
 Category = input("Would you like to categorize the list?\n")
 
-# Assign the instruction for categorizing to a variable(Filter)
-Filter = "Enter C for Chocolates\nEnter D for Cold Drinks\nEnter Cp for Chips\nEnter I for Ice Cream\n"
+
 
 # Making a list to store prices of items that the user buys
 cart = []
@@ -97,6 +96,8 @@ cart = []
 def Categorize():
 # Nested if\else statement to show the instruction for categorizing provided the input to Category is "Yes" or "yes"
     if Category == "Yes" or Category == "yes":
+        # Assign the instruction for categorizing to a variable(Filter)
+        Filter = "Enter C for Chocolates\nEnter D for Cold Drinks\nEnter Cp for Chips\nEnter I for Ice Cream\n"
         # Assigning the instruction for categorizing(Filter) to A variable(prompt) as input
         prompt = input(Filter)
         # Displays the items in Chocolates category if the prompt is C
